@@ -3,9 +3,13 @@ Outlines for courses conducted by School of Devops.
 
 ### Devops
 
-* [Devops Workshop](devops/xyz.md)
+| Program | Duration     |
+| :------------- | :------------- |
+|  [Decoding Devops ](devops/xyz.md)       | 1day     |
+|  [Devops for Devs - CI/CD Track ](devops/xyz.md)       | 2days     |
+|  [Devops for Ops - Foundation ](devops/xyz.md)       | 2days     |
 
-* [Devops for Developers](devops/xyz.md)
+
 
 ### Chef
 
@@ -15,7 +19,7 @@ Outlines for courses conducted by School of Devops.
 | [Chef Fundamentals FT ](chef/chef-fundamentals-2days.md) | 2days | Fast Track |
 | [Chef with AWS](chef/chef-aws-2days.md) | 2days | Regular |
 | [Chef and Cloud Integrations ](chef/chef-cloud-2days.md) | 2days| Regular |
-| [Advanced Chef](chef/chef-advanced-2days.md) |     2days | Regular | 
+| [Advanced Chef](chef/chef-advanced-2days.md) |     2days | Regular |
 
 ### Puppet
 
