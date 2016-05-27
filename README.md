@@ -7,23 +7,53 @@ Outlines for courses conducted by School of Devops.
 
 
 ### Chef
-* [Chef Fundamentals - 2days](chef/chef-fundamentals-2days.md)
+
+* [Chef Fundamentals -   3days](chef/chef-fundamentals-2days.md)
+
+* [Chef Fundamentals - Fast Track - 2days](chef/chef-fundamentals-2days.md)
+
+* [Chef with AWS -   2days](chef/chef-aws-2days.md)
+
+* [Chef and Cloud Integrations -   2days](chef/chef-cloud-2days.md)
+
+* [Advanced Chef -   2days](chef/chef-advanced-2days.md)
 
 ### Puppet
 
-* [Puppet Fundamentals - 2days](puppet/puppet-fundamentals-2days.md)
+**Version 4.x**
+
+* [Puppet Fundamentals - 3days](puppet/puppet-fundamentals-2days.md)
+
+* [Puppet Fundamentals - Fast Track -  2days](puppet/puppet-fundamentals-2days.md)
+
+* [Advanced Puppet-   2days](puppet/puppet-advanced-2days.md)
+
+* [Device Management with Puppet-   2days](puppet/puppet-device-management-2days.md)
+
+* [Puppet with AWS -   2days](puppet/puppet-aws-2days.md)
+
+* [Puppet with Openstack -   2days](puppet/puppet-openstack-2days.md)
+
 
 ### Docker
 
 * [Docker Fundamentals - 2days](docker/docker-fundamentals-2days.md)
 
+* [Docker Orchestration - 2days](docker/docker-orchestration-2days.md)
+
+* [ Deploying Micro Services with Docker - 2days](docker/docker-microservices-2days.md)
+
 ### Ansible
 
-* [Ansible Fundamentals - 2days](ansible/ansible-fundamentals-2days.md)
+* [Ansible Fundamentals - 3days](ansible/ansible-fundamentals-3days.md)
 
 ### AWS
 
 * [AWS Sysops Foundation - 3days](aws/aws-sysops-3days.md)
+
+* [AWS Architect Foundation - 3days](aws/aws-architect-3days.md)
+
+* [AWS Devops Foundation - 2days](aws/aws-devops-2days.md)
 
 
 ### License (CC-BY-NC-ND)
