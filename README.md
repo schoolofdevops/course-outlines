@@ -3,11 +3,11 @@ Outlines for courses conducted by School of Devops.
 
 ### Devops
 
-| Program | Duration     |
-| :------------- | :------------- |
-|  [Decoding Devops ](devops/xyz.md)       | 1day     |
-|  [Devops for Devs - CI/CD Track ](devops/xyz.md)       | 2days     |
-|  [Devops for Ops - Foundation ](devops/xyz.md)       | 2days     |
+| Program | Duration     | Type |
+| :------------- | :------------- | :------------- |
+|  [Decoding Devops ](devops/xyz.md)       | 1day     | Overview |
+|  [Devops for Devs - CI/CD Track ](devops/xyz.md)       | 2days     | Foundation |
+|  [Devops for Ops - Foundation ](devops/xyz.md)       | 2days     | Foundation |
 
 
 
@@ -15,11 +15,11 @@ Outlines for courses conducted by School of Devops.
 
 | Program     | Duration     | Type |
 | :------------- | :------------- | :------------- |
-| [Chef Fundamentals](chef/chef-fundamentals-2days.md)       | 3days       | Regular
+| [Chef Fundamentals](chef/chef-fundamentals-2days.md)       | 3days       | Foundation
 | [Chef Fundamentals FT ](chef/chef-fundamentals-2days.md) | 2days | Fast Track |
-| [Chef with AWS](chef/chef-aws-2days.md) | 2days | Regular |
-| [Chef and Cloud Integrations ](chef/chef-cloud-2days.md) | 2days| Regular |
-| [Advanced Chef](chef/chef-advanced-2days.md) |     2days | Regular |
+| [Chef with AWS](chef/chef-aws-2days.md) | 2days | Advance |
+| [Chef and Cloud Integrations ](chef/chef-cloud-2days.md) | 2days| Advance |
+| [Advanced Chef](chef/chef-advanced-2days.md) |     2days | Advance |
 
 ### Puppet
 
