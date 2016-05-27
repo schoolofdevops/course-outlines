@@ -1,18 +1,29 @@
 # Course Outlines
 Outlines for courses conducted by School of Devops.
 
-## Devops
+### Devops
 
 * [Devops Workshop](devops/xyz.md)
 
 
-## Chef
+### Chef
 * [Chef Fundamentals - 2days](chef/chef-fundamentals-2days.md)
 
-## Puppet
+### Puppet
 
-* [Puppet Fundamentals - 2days](chef/puppet-fundamentals-2days.md)
+* [Puppet Fundamentals - 2days](puppet/puppet-fundamentals-2days.md)
 
+### Docker
+
+* [Docker Fundamentals - 2days](docker/docker-fundamentals-2days.md)
+
+### Ansible
+
+* [Ansible Fundamentals - 2days](ansible/ansible-fundamentals-2days.md)
+
+### AWS
+
+* [AWS Sysops Foundation - 3days](aws/aws-sysops-3days.md)
 
 
 ### License (CC-BY-NC-ND)
