@@ -5,9 +5,9 @@ Outlines for courses conducted by School of Devops.
 
 | Program | Duration     | Type |
 | :------------- | :------------- | :------------- |
-|  [Decoding Devops ](devops/xyz.md)       | 1day     | Overview |
-|  [Devops for Devs - CI/CD Track ](devops/xyz.md)       | 2days     | Foundation |
-|  [Devops for Ops - Foundation ](devops/xyz.md)       | 2days     | Foundation |
+|  Decoding Devops       | [1day](devops.xyz.md)     | Overview |
+|  Devops for Devs - CI/CD Track | [2days](devops/xyz.md) | Foundation |
+|  Devops for Ops - Foundation   | [2days](devops.xyz.md)     | Foundation |
 
 
 
@@ -15,48 +15,46 @@ Outlines for courses conducted by School of Devops.
 
 | Program     | Duration     | Type |
 | :------------- | :------------- | :------------- |
-| [Chef Fundamentals](chef/chef-fundamentals-2days.md)       | 3days       | Foundation
-| [Chef Fundamentals FT ](chef/chef-fundamentals-2days.md) | 2days | Fast Track |
-| [Chef with AWS](chef/chef-aws-2days.md) | 2days | Advance |
-| [Chef and Cloud Integrations ](chef/chef-cloud-2days.md) | 2days| Advance |
-| [Advanced Chef](chef/chef-advanced-2days.md) |     2days | Advance |
+| Chef Fundamentals       | [3days](chef/chef-fundamentals-2days.md)       | Foundation
+| Chef Fundamentals FT | [2days](chef/chef-fundamentals-2days.md) | Fast Track |
+| Chef with AWS] | [2days](chef/chef-aws-2days.md) | Advance |
+| Chef and Cloud Integrations | [2days](chef/chef-cloud-2days.md)| Advance |
+| Advanced Chef | [2days](chef/chef-advanced-2days.md) | Advance |
 
 ### Puppet
 
 **Version 4.x**
-
-* [Puppet Fundamentals - 3days](puppet/puppet-fundamentals-2days.md)
-
-* [Puppet Fundamentals - Fast Track -  2days](puppet/puppet-fundamentals-2days.md)
-
-* [Advanced Puppet-   2days](puppet/puppet-advanced-2days.md)
-
-* [Device Management with Puppet-   2days](puppet/puppet-device-management-2days.md)
-
-* [Puppet with AWS -   2days](puppet/puppet-aws-2days.md)
-
-* [Puppet with Openstack -   2days](puppet/puppet-openstack-2days.md)
+| Program | Duration | Type |
+| :------------- | :------------ | :------------ |
+| Puppet Fundamentals |  [3days](puppet/puppet-fundamental.md) | Foundation |
+| Puppet Fundamentals Fast Track | [2days](puppet/puppet-fundamental.md) | Fast Track |
+| Advanced Puppet | [2days](puppet/puppet-advanced-2days.md) | Advance |
+| Device Management with Puppet |[ 2days](puppet/puppet-device-management-2days.md) | Advance  |
+| Puppet with AWS  | [2days](puppet/puppet-aws-2days.md) | Advance |
+| Puppet with Openstack |   [2days](puppet/puppet-openstack-2days.md) | Advance | 
 
 
 ### Docker
 
-* [Docker Fundamentals - 2days](docker/docker-fundamentals-2days.md)
-
-* [Docker Orchestration - 2days](docker/docker-orchestration-2days.md)
-
-* [ Deploying Micro Services with Docker - 2days](docker/docker-microservices-2days.md)
+| Program | Duration | Type |
+| :----------- | :------------ | :---------------- |
+| Docker Fundamentals | [2days](docker/docker-fundamental.md) | Foundation |
+| Docker Orchestration | [2days](docker/docker-orchestration-2days.md) | |
+| Deploying Micro Services with Docker |  [2days](docker/docker-microservices-2days.md) | |
 
 ### Ansible
 
-* [Ansible Fundamentals - 3days](ansible/ansible-fundamentals-3days.md)
+| Program | Duration | Type |
+| :------------ | :------------- | :------------- |
+|Ansible Fundamentals | [ 3days](ansible/ansible-fundamental-3days.md) | Foundation |
 
 ### AWS
 
-* [AWS Sysops Foundation - 3days](aws/aws-sysops-3days.md)
-
-* [AWS Architect Foundation - 3days](aws/aws-architect-3days.md)
-
-* [AWS Devops Foundation - 2days](aws/aws-devops-2days.md)
+| Program | Duration | Type |
+| :------------- | :----------- | :------------|
+| AWS Sysops Foundation | [ 3days](aws/aws-sysops-3days.md) | |
+| AWS Architect Foundation | [3days](aws/aws-architect-3days.md) | |
+| AWS Devops Foundation | [2days](aws/aws-devops-2days.md) | |
 
 
 ### License (CC-BY-NC-ND)
