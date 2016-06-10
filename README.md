@@ -23,7 +23,6 @@ Outlines for courses conducted by School of Devops.
 
 ### Puppet
 
-**Version 4.x**
 | Program | Duration | Type |
 | :------------- | :------------ | :------------ |
 | Puppet Fundamentals |  [3days](puppet/puppet-fundamental.md) | Foundation |
