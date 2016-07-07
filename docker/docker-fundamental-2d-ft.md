@@ -29,7 +29,7 @@ These are the systems prerequisites for setting up lab environment for this trai
 
 
 ### Topics Summary
-* Introduction Containers, Docker and the Eco System
+* Introduction Containers, Docker and the Eco System : 
 *	Setting up Learning Environment
 *	Getting Started - Fundamental Docker Operations
 *	Rapid Provisioning of Apps with Docker
@@ -40,7 +40,9 @@ These are the systems prerequisites for setting up lab environment for this trai
 
 ###Detailed Course Outline
 
-##### Introduction to Containers and Docker
+##### Module 1: Introduction to Containers and Docker
+*Topics*: Intro, Docker, Eco System
+
   *	Containers vs Hypervisors
   *	Evolution of Containers
   *	Docker Story
@@ -52,17 +54,20 @@ These are the systems prerequisites for setting up lab environment for this trai
 	  - Libcontainer
   * Docker Eco System
 
-##### Setting up Learning Environment
-	-	Installing Prerequsites:-
-		- Virtualbox
-		-	GIT For Windows
-    - Vagrant
-  - Installing Docker Toolbox
-  - docker-machine Primer
-  - Creating Docker Hub Account
-  - Validating The Setup
+##### Module 2:Setting up Learning Environment
+*Topics*: Lab Setup
+  *	Installing Prerequsites:-
+	  * Virtualbox
+	  *	GIT For Windows
+    * Vagrant
+  * Installing Docker Toolbox
+  * docker-machine Primer
+  * Creating Docker Hub Account
+  * Validating The Setup
 
-##### Getting Started - Fundamental Docker Operations
+##### Module 3: Getting Started - Fundamental Docker Operations
+*Topics*: docker shell, container operations
+
   * Using docker shell
   * Connecting to docker daemon
   * Docker Commands
@@ -71,7 +76,9 @@ These are the systems prerequisites for setting up lab environment for this trai
   * Making Containers Persist
   * Stop, Start, Remove Containers
 
-##### Rapid Provisioning of Apps with Docker
+##### Module 4: Rapid Provisioning of Apps with Docker
+*Topics*: docker hub registry, images, port mapping, containers management
+
   * Launching Application Containers with pre built images
   * Docker Registry Primer
   * Accessing Apps from outside - Network Port Mapping
@@ -83,7 +90,9 @@ These are the systems prerequisites for setting up lab environment for this trai
 	  * Delete
 	  * Attach
 
-##### Dockerizing your Apps - Building Images, Dockerfile
+##### Module 5: Dockerizing your Apps
+*Topics*: building custom images,dockerfile, image operations
+
   * Docker Image Basics
   * Working with Docker Hub Registry
   * Image Operations
@@ -98,7 +107,9 @@ These are the systems prerequisites for setting up lab environment for this trai
   *	Private Docker Registry Overview
   * Pushing  image to Docker Hub
 
-##### Connecting the dots - Building and Launching Multi Container Application Stacks. Container Linking, Docker Compose
+##### Module 6: Connecting the dots - Building and Launching Multi Container Application Stacks.
+*Topics*: docker compose, compose file reference, container linking, volumes, networking, app deployments
+
   *	Connecting Containers with Network Port Mappings
   *	Container linking system for inter container communication
   *	Automatic Discovery with environment variables
@@ -114,7 +125,10 @@ These are the systems prerequisites for setting up lab environment for this trai
   *	Writing docker-compose specifications
   * Launching, scaling and managing stacks
 
-##### Clustering and Orchestration Overview - Swarm, Kubernetes, ECS
+##### Module 7:Clustering and Orchestration
+
+*Topics*: overview of clustering/orchestration tools, swarm, kubernetes, ECS
+
   * Container Orchestration : building clusters to run containers
   * Orchestration Tools
     * Docker Swarm
@@ -127,7 +141,9 @@ These are the systems prerequisites for setting up lab environment for this trai
     * Swarm Strategies
     * Demo of building  Swarm Cluster
 
-##### Kubernetes Quick Dive - Production Grade Container Orchestration by Google
+##### Module 8: Kubernetes Quick Dive - Production Grade Container Orchestration by Google
+*Topics*: kubernetes, cluster setup, deploying and scaling app
+
   * Introduction to Kubernetes
   * Key Features/Advantages
     * Horizontal Scaling
@@ -148,3 +164,9 @@ These are the systems prerequisites for setting up lab environment for this trai
     * Installing Kubernetes
     * using kubectl
     * Kubernetes Operations
+  * Deploying Sample App with Kubernetes
+    *  Building images for sample app
+    *  Creating Pods and accessing those
+    *  Scaling the Application
+    *  Rolling update demo
+    *  Tear Down
