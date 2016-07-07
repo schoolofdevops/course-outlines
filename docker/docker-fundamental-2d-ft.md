@@ -40,7 +40,7 @@ These are the systems prerequisites for setting up lab environment for this trai
 
 ###Detailed Course Outline
 
-*	Introduction to Containers and Docker
+##### Introduction to Containers and Docker
   *	Containers vs Hypervisors
   *	Evolution of Containers
   *	Docker Story
@@ -52,7 +52,7 @@ These are the systems prerequisites for setting up lab environment for this trai
 	  - Libcontainer
   * Docker Eco System
 
-*	Setting up Learning Environment
+##### Setting up Learning Environment
 	-	Installing Prerequsites:-
 		- Virtualbox
 		-	GIT For Windows
@@ -62,7 +62,7 @@ These are the systems prerequisites for setting up lab environment for this trai
   - Creating Docker Hub Account
   - Validating The Setup
 
-*	Getting Started - Fundamental Docker Operations
+##### Getting Started - Fundamental Docker Operations
   * Using docker shell
   * Connecting to docker daemon
   * Docker Commands
@@ -71,7 +71,7 @@ These are the systems prerequisites for setting up lab environment for this trai
   * Making Containers Persist
   * Stop, Start, Remove Containers
 
-*	Rapid Provisioning of Apps with Docker
+##### Rapid Provisioning of Apps with Docker
   * Launching Application Containers with pre built images
   * Docker Registry Primer
   * Accessing Apps from outside - Network Port Mapping
@@ -83,7 +83,7 @@ These are the systems prerequisites for setting up lab environment for this trai
 	  * Delete
 	  * Attach
 
-*	Dockerizing your Apps - Building Images, Dockerfile
+##### Dockerizing your Apps - Building Images, Dockerfile
   * Docker Image Basics
   * Working with Docker Hub Registry
   * Image Operations
@@ -98,7 +98,7 @@ These are the systems prerequisites for setting up lab environment for this trai
   *	Private Docker Registry Overview
   * Pushing  image to Docker Hub
 
-* Connecting the dots - Building and Launching Multi Container Application Stacks. Container Linking, Docker Compose
+##### Connecting the dots - Building and Launching Multi Container Application Stacks. Container Linking, Docker Compose
   *	Connecting Containers with Network Port Mappings
   *	Container linking system for inter container communication
   *	Automatic Discovery with environment variables
@@ -114,7 +114,7 @@ These are the systems prerequisites for setting up lab environment for this trai
   *	Writing docker-compose specifications
   * Launching, scaling and managing stacks
 
-*	Clustering and Orchestration Overview - Swarm, Kubernetes, ECS
+##### Clustering and Orchestration Overview - Swarm, Kubernetes, ECS
   * Container Orchestration : building clusters to run containers
   * Orchestration Tools
     * Docker Swarm
@@ -127,7 +127,7 @@ These are the systems prerequisites for setting up lab environment for this trai
     * Swarm Strategies
     * Demo of building  Swarm Cluster
 
-* Kubernetes Quick Dive - Production Grade Container Orchestration by Google
+##### Kubernetes Quick Dive - Production Grade Container Orchestration by Google
   * Introduction to Kubernetes
   * Key Features/Advantages
     * Horizontal Scaling
@@ -139,6 +139,7 @@ These are the systems prerequisites for setting up lab environment for this trai
     * Batch Execution
   * Kubernetes concepts
     * Pods
+    * Nodes
     * Replication Controllers
     * Services
     * Discovery Backends
