@@ -28,7 +28,7 @@ These are the systems prerequisites for setting up lab environment for this trai
 | 20 GB Disk Space available | Docker Toolbox |
 
 
-###Course Outline
+### Topics Summary
 * Introduction Containers, Docker and the Eco System
 *	Setting up Learning Environment
 *	Getting Started - Fundamental Docker Operations
@@ -63,19 +63,18 @@ These are the systems prerequisites for setting up lab environment for this trai
   - Validating The Setup
 
 *	Getting Started - Fundamental Docker Operations
-  - Using docker shell
-  - Connecting to docker daemon
-  - Docker Commands
-  - Running Ephemeral Container
-  - Running Interactive Containers
-  - Making Containers Persist
-  - Connecting to Containers to execute commands
-  - Stop, Start, Remove Containers
+  * Using docker shell
+  * Connecting to docker daemon
+  * Docker Commands
+  * Running Ephemeral Container
+  * Running Interactive Containers
+  * Making Containers Persist
+  * Stop, Start, Remove Containers
 
 *	Rapid Provisioning of Apps with Docker
-  * Launching a Application Container with an existing image
+  * Launching Application Containers with pre built images
   * Docker Registry Primer
-  * Network Port Mapping
+  * Accessing Apps from outside - Network Port Mapping
   * Container Management Operations
 		* Run
 	  * Inspect
@@ -94,19 +93,26 @@ These are the systems prerequisites for setting up lab environment for this trai
   * docker commit - Building docker image manually
   * docker build  - building image automatically
   * Dockerfile Primer
+    * Anatomy of a Dockerfile
+    * Instruction Types
   *	Private Docker Registry Overview
   * Pushing  image to Docker Hub
 
-* Connecting the dots - Building and Launching Multi Container Application Stacks with Container Linking, Docker Compose
+* Connecting the dots - Building and Launching Multi Container Application Stacks. Container Linking, Docker Compose
   *	Connecting Containers with Network Port Mappings
   *	Container linking system for inter container communication
-  *	Discovery with environment variables
+  *	Automatic Discovery with environment variables
   *	Advanced Docker Networking
   * Container Data Management
-  * Container Networking
   * Docker Compose - Automated approach to launch multi container application stack
-  *	Docker Compose Primer
+  *	Docker Compose File 2.0 Primer
+     - Stacks
+     - Networks
+     - Apps
+     - Links
+     - Dependencies
   *	Writing docker-compose specifications
+  * Launching, scaling and managing stacks
 
 *	Clustering and Orchestration Overview - Swarm, Kubernetes, ECS
   * Container Orchestration : building clusters to run containers
