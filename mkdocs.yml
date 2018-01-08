@@ -3,6 +3,7 @@ Pages:
   - Home: README.md
   - Containers:
     - Docker Fundamentals: "containers/docker-fundamentals.md"
+    - Advanced Docker: "conainers/advanced-docker.md"
   - IaaC:
     - "Puppet"
   - About:
