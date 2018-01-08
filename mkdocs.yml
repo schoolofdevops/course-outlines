@@ -1,0 +1,10 @@
+site_name: Devops Course Outlines
+Pages:
+  - Home: README.md
+  - Containers:
+    - Docker Fundamentals: "containers/docker-fundamentals.md"
+  - IaaC:
+    - "Puppet"
+  - About:
+docs_dir: "2018"
+theme: readthedocs
