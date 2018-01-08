@@ -5,8 +5,9 @@
 |      |      |
 | :------------- | :------------- |
 | Duration       | 2days     |
-| Difficulty     | Easy |
-| Level          | Beginner |
+| Level     | Beginner |
+| Modules          | 08 |
+| Nano Projects | 04 |
 
 ## Objectives
 
@@ -16,6 +17,10 @@ This course  introduces participants to linux container,  docker and open contai
 This course is intended for anyone who is part of the software delivery process and would like to get started using docker in their workflows to build, ship and run applications with containers.
 
 This includes developers, qa and ops  professionals alike who are part of the software delivery process either as part of developing applications, creating  tests or part of the ops team in charge of deploying applications or automation team which enables developers to create their workflows.  
+
+## Who is this not for ?
+If you are a advanced user of docker, this course is definitely not for you. If you already know the fundamentals of docker, mainly the concepts listed below,  but would like to know advanced concepts, you may want to enroll for Docker Advanced course.
+
 
 ## What will you do as part of this course ?
 
@@ -78,11 +83,11 @@ Following is the supporting material which will be provided to you before/during
   * Video Course - Zero to Docker by School of Devops
   * Reading List : Reference Material
 
-## Pre Class Checklist (Must)
+## Pre Class Checklist
 
 All participants should have completed the following checklist before attending the course .
 
-  * Watch  "Docker Mini Course" videos. This covers the introduction to Docker and the theory related to containers, key features, advantages and workflow.
+  * Watch  "Docker Mini Course" videos by School of Devops. This covers the introduction to Docker and the theory related to containers, key features, advantages and workflow.
   * Verify  your system meets the  hardware pre requisites.
   * Validate the setup : verify all pre requisite software is installed on your system and is functional.
 
@@ -91,111 +96,111 @@ All participants should have completed the following checklist before attending 
 Following are the topics which would be covered as part of this course. Detailed course outline follows.
 
   * Course Introduction and Use Case
-  * Pre-assesment  
+  * Introduction to Docker
   *	Validating Learning Environment
   *	Launching and Operating Containers
-  *	Building Docker Images
+  *	Dockerizing your applications - building docker images
   *	Docker Networking
   *	Docker Storage
   *	Launching Multi Container Apps with Compose
+  * Container Orchestration Quick Dive
+
+Additional Topics if time permits
+
+  * Docker eco system
+  * Docker log drives
 
 ##  Detailed Course Outline
 
-This is the detailed course outline with day wise list of contents. 
+This is the detailed course outline with day wise list of contents.
 
-*	Introduction to Containers and Docker
-*	Containers vs Hypervisors
-*	Evolution of Containers
-*	Docker Story
-*	Docker Architecture
-*	Under the hood
-	- Namespaces
-	- Control Groups
-	- Union File System
-	- Libcontainer
-*	Setting up Learning Environment
-	-	Installing Prerequsites:-
+### Day I :  
 
-		-  	Virtualbox
-		-	GIT For Windows
+#### Module1 : Introduction to Containers and Docker
+  *	Containers vs VMs
+  *	Under the hood
+	  * Namespaces
+	  * Control Groups
+	  * Overlay File System
+  * Advantages of using a Container
+  *	Evolution of Containers
+  *	Docker Story
+  *	Docker Workflow
 
- - 	Installing Boot2docker
- -  Installing Kinematic
- -  Installing Docker Machine
- -  Creating Docker Hub Account
- -  Validating The Setup
-*	Getting Familiar with Docker
- - Using docker shell
- - Connecting to docker daemon
- - Docker Commands
- - Running Ephemeral Container
- - RunningInteractive Containers
- - Running  Persistent Containers
-*	Working with Containers
-	- Launching a Application Container with an existing image
-	- Container Operations
 
-		- Run
-		- Inspect
-		- Check Logs
-		- Stop
-		- Delete
-		- Attach
-	-	Network Port Mapping
-*	Working with Images
-	 - 	Docker Image Basics
-	 -  Working with Docker Hub Registry
-	 -  Image Operations
+#### Module 2: Validating Learning Environment
+  * Validating Setup
+		* Docker for Mac/Windows or
+		* Docker Toolbox
 
-		- List
-		- Search
-		- Pull
 
-   - Customising Image Manually
-	- Committing Image to Docker Hub Registry
-	- Building Image Automatically with Dockerfile
-	-	Private Docker Registry Overview
-* Dockerfile Primer
-	- 	Dockerfile Basics
-	-	Dockerfile Anatomy
-	-	Dockerfile Instructions
+#### Module 3: Launching and Operating Containers
+  * Docker CLI
+    * Using docker cli
+    * Display information about docker setup  
+  * Basics of Docker Images
+    * Registry - Docker Hub
+    * Image format
+  * Run a container
+    * Ephemeral Container
+    * Container with interactive options
+    * With detach mode
+  * Basic Operations
+    * inspect
+    * logs
+    * exec
+    * copy
+    * stop
+    * rm
+    * attach
+    * detach
+  * Advanced Container Operations
+    * Port Mapping
+    * Limiting Resources
+      * memory
+      * cpu
+    * Defining restart policies
 
-	  - 	FROM
-	  -  MAINTAINER
-	  -  RUN
-	  -  LABEL
-	  -  ENV
-	  -  ADD
-	  -  COPY
-	  -  EXPOSE
-	  -  VOLUME
-	  -  USER
-	  -  WORKDIR
-	  -  ONBUILD
-	  -  CMD
-	  -  ENTRYPOINT
-*	Connecting Containers
-	-	Connecting Containers with Network Port Mappings
-	-	Linking System for Inter Container Communication
-	-	Discovery with environment variables
-	-	Advanced Docker Networking
-* Container Data Management
-	-	Managing Data for Containers
-	-	Creating Data Volumes
-	-	Using Data Volume Container
-*	Launching Multi Container Apps with Compose
-	-	Docker Compose Overview
-	-	Running Multi Container Apps
-	-	Using Compose
-*	Creating Multi Node Cluster with Swarm
-	-	Swarm Overview
-	-	Clustering Nodes with Swarm
-	-	Discovery Services
-	-	Using Swarm to cluster docker hosts
-*	Working with Docker Registry
-	-	Docker Registry Types
-	-	Trusted Registry vs Open Source Registry  
-	-	Configuring Security and TLS for Registry
-	-	Working with Local Registries
 
-*	Docker Eco System
+**Nano Project** : Launch portainer.io management app with docker, connect to it and use it to manage local docker environment.
+
+#### Module 4 : Dockerising your applications - building docker images
+  * Docker image basics
+  * Approaches to build images
+    * imperative approach
+    * declarative approach
+  * Building an image with imperative approach and docker commit
+  * Building an image with dockerfile and docker build
+  * Dockerfile Primer
+    * How to create dockerfiles
+    * Overview of Instructions
+    * Dockerfile Demos
+
+**Nano Project** : Provided with the source code, build a dockerimage for facebooc clone. Its an app written in C which uses sqlite as a database backend
+
+  * Multi stage builds
+  * Automated builds with DockerHub and Git
+
+#### Module 5: Docker Networking and storage
+  * Container networking concepts: how docker networks a container
+  * Single host network modes
+    * bridge
+    * host
+    * none
+  * Multi host networking conceptual overview  
+
+#### Module 6: Docker Storage
+  * Local storage and persistent volumes
+  * Types of volumes:
+    * automated
+    * named volumes
+    * host path
+
+  * Overview of persistent storage in multi host env
+
+#### Module 7: Launching and connecting Micro services with Compose
+  * Overview of docker compose
+    * Run time configurations
+    * Linking applications
+  * Writing compose v1 spec to define multi app stack
+  * Converting to v3 spec  
