@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Docker  Fundamentals - Devops Course Outlines</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Docker  Fundamentals";
+    var mkdocs_page_input_path = "containers/docker-fundamentals.md";
+    var mkdocs_page_url = "/containers/docker-fundamentals/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../README/" class="icon icon-home"> Devops Course Outlines</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../README/">Index</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Containers</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">Docker  Fundamentals</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#docker-fundamentals">Docker  Fundamentals</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#objectives">Objectives</a></li>
+        
+            <li><a class="toctree-l4" href="#who-is-this-for">Who is this for ?</a></li>
+        
+            <li><a class="toctree-l4" href="#what-will-you-do-as-part-of-this-course">What will you do as part of this course ?</a></li>
+        
+            <li><a class="toctree-l4" href="#what-will-you-not-learn">What will you not learn ?</a></li>
+        
+            <li><a class="toctree-l4" href="#pre-requisites">Pre Requisites</a></li>
+        
+            <li><a class="toctree-l4" href="#supporting-materials">Supporting Materials</a></li>
+        
+            <li><a class="toctree-l4" href="#pre-class-checklist-must">Pre Class Checklist (Must)</a></li>
+        
+            <li><a class="toctree-l4" href="#topics">Topics</a></li>
+        
+            <li><a class="toctree-l4" href="#detailed-course-outline">Detailed Course Outline</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../README/">Devops Course Outlines</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../README/">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Containers &raquo;</li>
+        
+      
+    
+    <li>Docker  Fundamentals</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="docker-fundamentals">Docker  Fundamentals</h1>
+<hr />
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Duration</td>
+<td align="left">2days</td>
+</tr>
+<tr>
+<td align="left">Difficulty</td>
+<td align="left">Easy</td>
+</tr>
+<tr>
+<td align="left">Level</td>
+<td align="left">Beginner</td>
+</tr>
+</tbody>
+</table>
+<h2 id="objectives">Objectives</h2>
+<p>This course  introduces participants to linux container,  docker and open container eco system . Its intended to  help  participants to get started using docker to build,  package  and run applications.</p>
+<h2 id="who-is-this-for">Who is this for ?</h2>
+<p>This course is intended for anyone who is part of the software delivery process and would like to get started using docker in their workflows to build, ship and run applications with containers.</p>
+<p>This includes developers, qa and ops  professionals alike who are part of the software delivery process either as part of developing applications, creating  tests or part of the ops team in charge of deploying applications or automation team which enables developers to create their workflows.  </p>
+<h2 id="what-will-you-do-as-part-of-this-course">What will you do as part of this course ?</h2>
+<p>As part of this course you will,  </p>
+<ul>
+<li>Learn what linux containers are, what is docker and get an overview of  open container eco system.</li>
+<li>Setup a local docker development environment</li>
+<li>Launch containers, publish ports and connect to the applications running inside containers</li>
+<li>Learn basic container operations and troubleshooting</li>
+<li>Build docker images with best practices for  web application, create optimal dockerfiles</li>
+<li>Learn single host container networking and volumes primitives.</li>
+<li>Launch multi container application stacks with interlinked application.</li>
+<li>Create specifications for setting up automated development environments with Docker Compose</li>
+<li>Get a quick overview of Container Orchestration Engine (COE) functionality with Kubernetes/SWARM.</li>
+</ul>
+<h2 id="what-will-you-not-learn">What will you not learn ?</h2>
+<p>Since this course is a beginner level, its not meant to cover advanced concepts such as,</p>
+<ul>
+<li>Advanced Container Orchestration</li>
+<li>Container Security</li>
+<li>Logging and Monitoring setup for container based systems</li>
+<li>Multi Host Networking/Overlay/CNI</li>
+<li>Writing Micro Services Applications</li>
+<li>Customising Docker Installation and Setup</li>
+<li>Production grade docker setup and deployment</li>
+<li>Custom registries, base images etc.</li>
+<li>Cloud Integrations</li>
+<li>Network storage and persistence</li>
+</ul>
+<h2 id="pre-requisites">Pre Requisites</h2>
+<p>Following are the pre requisite skills to attend this course. Since its a beginner level course, no prior experience with linux containers is assumed.  </p>
+<h3 id="skills">Skills</h3>
+<ul>
+<li>Linux/Unix Systems Fundamentals</li>
+<li>Familiarity with Command Line Interface (CLI)</li>
+<li>Fundamental knowledge of editors on linux (any one of vi/nano/emacs)</li>
+</ul>
+<h3 id="hardware-and-software-requirements">Hardware and Software  Requirements</h3>
+<p>These are the prerequisites for each attendee.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Hardware Requirements</th>
+<th align="left">Software Requirements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Laptop/Desktop with high speed internet connection</td>
+<td align="left">Base Operating System : Windows / Mac OSX</td>
+</tr>
+<tr>
+<td align="left">8 GB RAM</td>
+<td align="left">Docker for Mac/Windows</td>
+</tr>
+<tr>
+<td align="left">4 CPU Cores</td>
+<td align="left">For windows versions &lt; 10, Docker for Windows</td>
+</tr>
+<tr>
+<td align="left">20 GB Disk Space available</td>
+<td align="left">ConeEmu (Windows Only)</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Git for Windows (windows only)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="supporting-materials">Supporting Materials</h2>
+<p>Following is the supporting material which will be provided to you before/during the course
+  * Slides (online)
+  * Workshop (online link)
+  * Video Course - Zero to Docker by School of Devops
+  * Reading List : Reference Material</p>
+<h2 id="pre-class-checklist-must">Pre Class Checklist (Must)</h2>
+<p>All participants should have completed the following checklist before attending the course .</p>
+<ul>
+<li>Watch  "Docker Mini Course" videos. This covers the introduction to Docker and the theory related to containers, key features, advantages and workflow.</li>
+<li>Verify  your system meets the  hardware pre requisites.</li>
+<li>Validate the setup : verify all pre requisite software is installed on your system and is functional.</li>
+</ul>
+<h2 id="topics">Topics</h2>
+<p>Following are the topics which would be covered as part of this course. Detailed course outline follows.</p>
+<ul>
+<li>Course Introduction and Use Case</li>
+<li>Pre-assesment  </li>
+<li>Validating Learning Environment</li>
+<li>Launching and Operating Containers</li>
+<li>Building Docker Images</li>
+<li>Docker Networking</li>
+<li>Docker Storage</li>
+<li>Launching Multi Container Apps with Compose</li>
+</ul>
+<h2 id="detailed-course-outline">Detailed Course Outline</h2>
+<p>This is the detailed course outline with day wise list of contents. </p>
+<ul>
+<li>Introduction to Containers and Docker</li>
+<li>Containers vs Hypervisors</li>
+<li>Evolution of Containers</li>
+<li>Docker Story</li>
+<li>Docker Architecture</li>
+<li>Under the hood<ul>
+<li>Namespaces</li>
+<li>Control Groups</li>
+<li>Union File System</li>
+<li>Libcontainer</li>
+</ul>
+</li>
+<li>
+<p>Setting up Learning Environment</p>
+<ul>
+<li>
+<p>Installing Prerequsites:-</p>
+<ul>
+<li>Virtualbox</li>
+<li>GIT For Windows</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Installing Boot2docker</p>
+</li>
+<li>Installing Kinematic</li>
+<li>Installing Docker Machine</li>
+<li>Creating Docker Hub Account</li>
+<li>Validating The Setup</li>
+<li>Getting Familiar with Docker</li>
+<li>Using docker shell</li>
+<li>Connecting to docker daemon</li>
+<li>Docker Commands</li>
+<li>Running Ephemeral Container</li>
+<li>RunningInteractive Containers</li>
+<li>Running  Persistent Containers</li>
+<li>
+<p>Working with Containers</p>
+<ul>
+<li>Launching a Application Container with an existing image</li>
+<li>
+<p>Container Operations</p>
+<ul>
+<li>Run</li>
+<li>Inspect</li>
+<li>Check Logs</li>
+<li>Stop</li>
+<li>Delete</li>
+<li>Attach<ul>
+<li>Network Port Mapping</li>
+</ul>
+</li>
+<li>
+<p>Working with Images</p>
+<ul>
+<li>Docker Image Basics</li>
+<li>Working with Docker Hub Registry</li>
+<li>Image Operations</li>
+</ul>
+</li>
+<li>
+<p>List</p>
+</li>
+<li>Search</li>
+<li>Pull</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Customising Image Manually</p>
+<ul>
+<li>Committing Image to Docker Hub Registry</li>
+<li>Building Image Automatically with Dockerfile</li>
+<li>Private Docker Registry Overview</li>
+</ul>
+</li>
+<li>
+<p>Dockerfile Primer</p>
+<ul>
+<li>Dockerfile Basics</li>
+<li>Dockerfile Anatomy</li>
+<li>
+<p>Dockerfile Instructions</p>
+</li>
+<li>
+<p>FROM</p>
+</li>
+<li>MAINTAINER</li>
+<li>RUN</li>
+<li>LABEL</li>
+<li>ENV</li>
+<li>ADD</li>
+<li>COPY</li>
+<li>EXPOSE</li>
+<li>VOLUME</li>
+<li>USER</li>
+<li>WORKDIR</li>
+<li>ONBUILD</li>
+<li>CMD</li>
+<li>ENTRYPOINT</li>
+<li>Connecting Containers</li>
+<li>Connecting Containers with Network Port Mappings</li>
+<li>Linking System for Inter Container Communication</li>
+<li>Discovery with environment variables</li>
+<li>Advanced Docker Networking</li>
+<li>Container Data Management</li>
+<li>Managing Data for Containers</li>
+<li>Creating Data Volumes</li>
+<li>Using Data Volume Container</li>
+<li>Launching Multi Container Apps with Compose</li>
+<li>Docker Compose Overview</li>
+<li>Running Multi Container Apps</li>
+<li>Using Compose</li>
+<li>Creating Multi Node Cluster with Swarm</li>
+<li>Swarm Overview</li>
+<li>Clustering Nodes with Swarm</li>
+<li>Discovery Services</li>
+<li>Using Swarm to cluster docker hosts</li>
+<li>Working with Docker Registry</li>
+<li>Docker Registry Types</li>
+<li>Trusted Registry vs Open Source Registry  </li>
+<li>Configuring Security and TLS for Registry</li>
+<li>Working with Local Registries</li>
+</ul>
+</li>
+<li>
+<p>Docker Eco System</p>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../../README/" class="btn btn-neutral" title="Index"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../../README/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/require.js"></script>
+      <script src="../../search/search.js"></script>
+
+</body>
+</html>
