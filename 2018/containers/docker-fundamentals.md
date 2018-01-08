@@ -19,7 +19,10 @@ This course is intended for anyone who is part of the software delivery process 
 This includes developers, qa and ops  professionals alike who are part of the software delivery process either as part of developing applications, creating  tests or part of the ops team in charge of deploying applications or automation team which enables developers to create their workflows.  
 
 ## Who is this not for ?
-If you are a advanced user of docker, this course is definitely not for you. If you already know the fundamentals of docker, mainly the concepts listed below,  but would like to know advanced concepts, you may want to enroll for Docker Advanced course.
+
+  * If you are a advanced user of docker already, this course is definitely not for you.
+  * If you already know the fundamentals of docker, mainly the concepts listed below,  but would like to know advanced concepts, you may want to enroll for Docker Advanced course instead.
+  * If you are interested in learning docker on windows, this course is not ideal for you as it focuses on linux containers, even though docker is now supported on windows.
 
 
 ## What will you do as part of this course ?
@@ -71,17 +74,18 @@ These are the prerequisites for each attendee.
 | Laptop/Desktop with high speed internet connection | Base Operating System : Windows / Mac OSX |
 | 8 GB RAM | Docker for Mac/Windows  |
 | 4 CPU Cores | For windows versions < 10, Docker for Windows |
-| 20 GB Disk Space available | ConeEmu (Windows Only) |
+| 20 GB Disk Space available | ConEmu (Windows Only) |
 | | Git for Windows (windows only) |
+| | Minikube |
 
+Lab Setup : Instructions can be found at xxx
 
-## Supporting Materials
+## Supporting Content/Materials
 
-Following is the supporting material which will be provided to you before/during the course
-  * Slides (online)
-  * Workshop (online link)
-  * Video Course - Zero to Docker by School of Devops
-  * Reading List : Reference Material
+Following is the supporting material which will be provided to you before/during the course  
+  * Slides (online)  
+  * Workshop (online link)  
+  * Video Course - Zero to Docker by School of Devops  
 
 ## Pre Class Checklist
 
@@ -90,7 +94,7 @@ All participants should have completed the following checklist before attending 
   * Watch  "Docker Mini Course" videos by School of Devops. This covers the introduction to Docker and the theory related to containers, key features, advantages and workflow.
   * Verify  your system meets the  hardware pre requisites.
   * Validate the setup : verify all pre requisite software is installed on your system and is functional.
-
+  * Join our [docker channel on gitter](https://gitter.im/schoolofdevops/docker?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
 ## Topics
 Following are the topics which would be covered as part of this course. Detailed course outline follows.
@@ -114,7 +118,7 @@ Additional Topics if time permits
 
 This is the detailed course outline with day wise list of contents.
 
-### Day I :  
+### Day I  
 
 #### Module1 : Introduction to Containers and Docker
   *	Containers vs VMs
@@ -181,6 +185,8 @@ This is the detailed course outline with day wise list of contents.
   * Multi stage builds
   * Automated builds with DockerHub and Git
 
+### Day II   
+
 #### Module 5: Docker Networking and storage
   * Container networking concepts: how docker networks a container
   * Single host network modes
@@ -207,8 +213,46 @@ This is the detailed course outline with day wise list of contents.
 
 
 #### Module 8: Container Orchestration Quick Dive
-    * What is Container Orchestration  
-      * Run time configurations
-      * Linking applications
-    * Writing compose v1 spec to define multi app stack
-    * Converting to v3 spec  
+  * Container Orchestration Concepts
+    * Why do you need a COE
+    * COE Options and Comparison   
+  * Kubernetes Overview
+    * What is kubernetes ?
+    * Features
+  * Key Concepts
+    * Pods
+    * Labels and Selectors
+    * Services
+    * Deployments  
+  * Setup Minikube
+    * Minicube run down
+    * Setup minikube environment
+    * Validate kubernetes setup
+  * Deploy Voting application with minikube
+    * Launch and operate a Pod
+    * Create deployments
+    * Expose an app with the Service
+    * Create a Zero downtime deployment
+
+**Nano Project** : Complete the kubernetes yaml spec given with **k8s-code** repo for deploying voting application stack. Once complete apply it with kubectl.  Validate all serivces are up and running.
+
+## Reading List
+
+Here is the list of curated resources which you could refer to to learn about docker before the training and  and get an in depth understanding post training.  
+
+### Pluralsight Courses
+  * [Getting Started with Docker](https://www.pluralsight.com/courses/docker-getting-started) by Nigel Poulton
+  * [Docker and Container](https://www.pluralsight.com/courses/docker-containers-big-picture), the Big Picture by Nigel Poulton
+
+### Safaribooks Online
+  * Docker: Up & Running by Karl Matthias, Sean P. Kane by Oreilly
+  * Using Docker by Adrian Mouat, Oreilly
+
+### Tutorials
+  * [Tutorials with Live Environment](https://www.katacoda.com/)
+  * [Labs by Docker](https://github.com/docker/labs)
+  * [Docker Tutorials by hacks.io]( https://hackr.io/tutorials/learn-docker)
+
+### Articles
+  * The Docker Story [How Docker Escaped Near-Death To Become Software’s Next Big Thing](
+http://www.forbes.com/sites/alexkonrad/2015/07/01/how-docker-escaped-near-death-to-become-softwares-next-big-thing/)
