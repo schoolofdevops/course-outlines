@@ -1,6 +1,7 @@
 # Course Outlines
 Outlines for courses conducted by School of Devops.
 
+
 ### Devops
 
 | Program | Duration     | Type |
