@@ -36,7 +36,7 @@ As part of this course you will,
    * Create specifications for setting up automated development environments with Docker Compose
    * Get a quick overview of Container Orchestration Engine (COE) functionality with Kubernetes/SWARM.
 
-## What will you not learn ?
+## What is not covered ?
 
 Since this course is a beginner level, its not meant to cover advanced concepts such as,
 
@@ -204,3 +204,11 @@ This is the detailed course outline with day wise list of contents.
     * Linking applications
   * Writing compose v1 spec to define multi app stack
   * Converting to v3 spec  
+
+
+#### Module 8: Container Orchestration Quick Dive
+    * What is Container Orchestration  
+      * Run time configurations
+      * Linking applications
+    * Writing compose v1 spec to define multi app stack
+    * Converting to v3 spec  

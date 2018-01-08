@@ -38,12 +38,12 @@ Following are the topics which would be covered as part of this course. Detailed
 This is the detailed course outline with day wise list of contents
 
 #### Module 1: Custom Docker Installation and Configuration
-    - Setup a linux VM
-    - Install Docker with package manager
-    - Install Docker Compose
-    - Docker daemon configuration
-    - Run Docker on a port with certs
-    - Configure local docker client to talk to remote server with certificates
+  * Setup a linux VM
+  * Install Docker with package manager
+  * Install Docker Compose
+  * Docker daemon configuration
+  * Run Docker on a port with certs
+  * Configure local docker client to talk to remote server with certificates
 #### Module 2: Introduction to Use Case - Mogambo.com
     - Mogambo - the XXXXXXX and the application
     - Overview of the Architecture
