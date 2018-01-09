@@ -102,7 +102,7 @@ All participants should have completed the following checklist before attending 
   * Validate the setup : verify all pre requisite software is installed on your system and is functional.
   * Join our [docker channel on gitter](https://gitter.im/schoolofdevops/docker?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-![Pre Class Checklist](https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/advanced_docker_pre-class_checklist.png)
+![Pre Class Checklist](https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/advanced_docker_pre-class_checklist.png?raw=true)
 
 ## Topics
 Following are the topics which would be covered as part of this course. Detailed course outline follows.
