@@ -10,29 +10,27 @@
     
 
     
-        
-    <url>
-     <loc>/chef/chef-fundamentals-2days/</loc>
-     <lastmod>2018-01-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>/containers/advanced-docker/</loc>
-     <lastmod>2018-01-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
     <url>
      <loc>/containers/docker-fundamentals/</loc>
      <lastmod>2018-01-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
+    
+
+    
+    <url>
+     <loc>/containers/advanced-docker/</loc>
+     <lastmod>2018-01-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/chef/chef-fundamentals-2days/</loc>
+     <lastmod>2018-01-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
     
 
 </urlset>
