@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Kubernetes Bootcamp - Devops Course Outlines</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Kubernetes Bootcamp";
+    var mkdocs_page_input_path = "containers/kubernetes-bootcamp.md";
+    var mkdocs_page_url = "/containers/kubernetes-bootcamp/";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../README/" class="icon icon-home"> Devops Course Outlines</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../README/">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Containers</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../containers_learning_path/">Containers Learning Path</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../docker-fundamentals/">Docker Fundamentals</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../advanced-docker/">Advanced Docker</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Kubernetes Bootcamp</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#kubernetes-bootcamp">Kubernetes Bootcamp</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#objectives">Objectives</a></li>
+        
+            <li><a class="toctree-l4" href="#flipped-classroom-methodology">Flipped Classroom Methodology</a></li>
+        
+            <li><a class="toctree-l4" href="#who-is-this-for">Who is this for ?</a></li>
+        
+            <li><a class="toctree-l4" href="#who-is-this-not-for">Who is this not for ?</a></li>
+        
+            <li><a class="toctree-l4" href="#what-will-you-do-as-part-of-this-course">What will you do as part of this course ?</a></li>
+        
+            <li><a class="toctree-l4" href="#what-is-not-covered">What is not covered ?</a></li>
+        
+            <li><a class="toctree-l4" href="#pre-requisites">Pre Requisites</a></li>
+        
+            <li><a class="toctree-l4" href="#supporting-contentmaterials">Supporting Content/Materials</a></li>
+        
+            <li><a class="toctree-l4" href="#pre-class-checklist">Pre Class Checklist</a></li>
+        
+            <li><a class="toctree-l4" href="#topics">Topics</a></li>
+        
+            <li><a class="toctree-l4" href="#detailed-course-outline">Detailed Course Outline</a></li>
+        
+            <li><a class="toctree-l4" href="#badge-kubernetes-champion">Badge : Kubernetes Champion</a></li>
+        
+            <li><a class="toctree-l4" href="#reading-list">Reading List</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../chef/chef-fundamentals-2days/">Chef Fundamentals</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../README/">Devops Course Outlines</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../README/">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Containers &raquo;</li>
+        
+      
+    
+    <li>Kubernetes Bootcamp</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="kubernetes-bootcamp">Kubernetes Bootcamp</h1>
+<hr />
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Duration</td>
+<td align="left">2days</td>
+</tr>
+<tr>
+<td align="left">Level</td>
+<td align="left">Intermediate, Advanced</td>
+</tr>
+<tr>
+<td align="left">Modules</td>
+<td align="left">10</td>
+</tr>
+<tr>
+<td align="left">Flipped Class</td>
+<td align="left">Yes</td>
+</tr>
+<tr>
+<td align="left">Customizable</td>
+<td align="left">Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="objectives">Objectives</h2>
+<p>This course follows a hands on  workshop method and builds container orchestration skills  on top of existing skills learnt in Docker Fundamentals. Participants learn how to built a production grade resilient, self healing infrastructure  with kubernetes. They take the container images built earlier and deploy with the high availability, fault tolerance, scalablility provided by kubernetes.</p>
+<h2 id="flipped-classroom-methodology">Flipped Classroom Methodology</h2>
+<p>This course follows a <a href="https://en.wikipedia.org/wiki/Flipped_classroom">Flipped Classroom</a> methodology, a blended model where participants come prepared with understanding of concepts by going through video/online content. The class time is maximized to perform practical activities to apply the concepts learnt earlier. Practice activities include taking up a use case and solving it by applying the techniques, or performing nano projects etc.   </p>
+<p>To make it successful, participants need to be prepared in advance, by going through  the recommended pre class content to clear the concepts as well as by making sure their systems are prepared with all the software required, before the class. The pre class checklist given below can be handy for this purpose.</p>
+<h2 id="who-is-this-for">Who is this for ?</h2>
+<ul>
+<li>This course is for someone who has already taken docker fundamentals course/has equivalent knowledge, and would like to learn how to extend it to <strong>orchestrate container</strong> deployments at production scale with kubernetes.</li>
+<li>If you are a <strong>Operations/Systems</strong> personnel and would like to learn how scalable, fault tolerant and high available infrastructures are built on or off cloud to orchestrate container based deployments, this course it for you.</li>
+<li>If you are a <strong>developer</strong> and would like to learn how to deploy your application stacks in production, on top of scalable, highly available  and leverage features provided by kubernetes, this course is for you.</li>
+<li>If you are a <strong>QA</strong>, and if your organization has a staging/QA environment built on kubernetes, and you would like to understand how to leverage it for setting up automated test workflow and learn the primitives offered by kubernetes, this course is for you.</li>
+<li>You could be developer/operations personnel and be in charge of securing application infrastructure and setup auxiliary services such as  monitoring, centralized  logging etc. this course is for you.</li>
+</ul>
+<h2 id="who-is-this-not-for">Who is this not for ?</h2>
+<ul>
+<li>If you are a <strong>advanced user of Kubernetes</strong> already, this course is definitely not for you.</li>
+<li>If you are looking to start with Kubernetes concepts, this course is not for you as it assumes basic understanding of Kubernetes and COEs. There is a free resource <strong>Kubernetes Quick Dive</strong> which you should go through before attending this workshop.  </li>
+<li>If you are interested in learning docker/container orchestration on <strong>windows</strong>, this course is not ideal for you as it focuses on linux containers.</li>
+<li>If you expect to learn a technology which is mainly driven through a <strong>GUI</strong>, this course is not suitable for you. Using kubernetes requires you to write YAML specifications, use command line tools etc.  </li>
+</ul>
+<h2 id="what-will-you-do-as-part-of-this-course">What will you do as part of this course ?</h2>
+<p>As part of this course you will,  </p>
+<ul>
+<li>Design a <strong>scalable, resilient, secure</strong> solution for deploying microservices application stack in production using primitives offered by kubernetes.</li>
+<li>Install and configure a simple(non HA) multi node kubernetes cluster  with <strong>kubeadm</strong>. You would also have a conceptual understanding of  how to build a production quality cluster with high availability, scalability,  redundancy and  security considerations.</li>
+<li>Learn how applications from a micro services stack interconnect with <strong>services</strong> as well as expose public facing services with various options including nodeport, externalIP, ingress etc.</li>
+<li>Achieve  <strong>Continuous Deployment</strong> with different release strategies  such as <strong>Zero Downtime, Blue/Green, Canary</strong> etc.  </li>
+<li>Learn how to manage <strong>persistent storage</strong> in a kubernetes environment</li>
+<li>Learn about the network primitives including <strong>CNI</strong> plugins, service networking and iptables, ingress etc.</li>
+<li>Deploy an application which is auto scalable, high available, and resilient to failures.</li>
+</ul>
+<h2 id="what-is-not-covered">What is not covered ?</h2>
+<p>Even though this course covers many concepts related to kubernetes, since its a very vast topic, it still has the following areas uncovered.</p>
+<ul>
+<li>Advanced RBAC</li>
+<li>Cloud specific provisioning and integration</li>
+<li>HA deployment of a kubernetes cluster with multi masters</li>
+<li>In depth kubernetes administration</li>
+<li>Writing Micro Services Applications</li>
+<li>Alternate container runtimes e.g. rocker/rkt, runc</li>
+</ul>
+<h2 id="pre-requisites">Pre Requisites</h2>
+<p>Following are the pre requisite skills to attend this course. Since its a beginner level course, no prior experience with linux containers is assumed.  </p>
+<h3 id="courses">Courses</h3>
+<p>You should have attended the following course, or have demonstrable knowledge with the topics included in the following course.</p>
+<ul>
+<li>Docker Fundamentals</li>
+</ul>
+<p>Pre Assessment test will be conducted at the beginning of the course to asses the skills.</p>
+<h3 id="skills">Skills</h3>
+<ul>
+<li><strong>Docker Basics</strong>  <ul>
+<li>Running Containers</li>
+<li>Building Images and writing Dockerfiles</li>
+<li>Docker Compose  </li>
+<li>Docker Networking and Storage</li>
+</ul>
+</li>
+<li>Linux/Unix Systems Fundamentals</li>
+<li>Familiarity with Command Line Interface (<strong>CLI</strong>)</li>
+<li>Fundamental knowledge of editors on linux (any one of vi/nano/emacs)</li>
+<li>Understanding of <strong>YAML</strong> syntax and familiarity with reading/writing basic YAML specifications</li>
+</ul>
+<h3 id="hardware-and-software-requirements">Hardware and Software  Requirements</h3>
+<p>These are the prerequisites for each attendee.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Hardware Requirements</th>
+<th align="left">Software Requirements</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Laptop/Desktop with high speed internet connection</td>
+<td align="left">Base Operating System : Windows / Mac OSX</td>
+</tr>
+<tr>
+<td align="left">8 GB RAM</td>
+<td align="left">VirtualBox</td>
+</tr>
+<tr>
+<td align="left">4 CPU Cores</td>
+<td align="left">Vagrant</td>
+</tr>
+<tr>
+<td align="left">20 GB Disk Space available</td>
+<td align="left">ConEmu (Windows Only)</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="left">Git for Windows (windows only)</td>
+</tr>
+</tbody>
+</table>
+<p>Lab Setup : Instructions can be found at xxx</p>
+<h2 id="supporting-contentmaterials">Supporting Content/Materials</h2>
+<p>Following is the supporting material which will be provided to you before/during the course  </p>
+<ul>
+<li>Slides (online)  </li>
+<li>Workshop (online link)  </li>
+<li>Video Course - XXX by School of Devops  </li>
+</ul>
+<h2 id="pre-class-checklist">Pre Class Checklist</h2>
+<p>All participants should have completed the following checklist before attending the course .</p>
+<ul>
+<li>Successfully Completed  <strong>Docker Fundamentals</strong> Course, or have equivalent skills.</li>
+<li>Verify  your system meets the  hardware pre requisites.</li>
+<li>Validate the setup : verify all pre requisite software is installed on your system and is functional.</li>
+<li>Join our <a href="https://gitter.im/schoolofdevops/Kubernetes?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">kubernetes channel on gitter</a></li>
+</ul>
+<p><img alt="Pre Class Checklist" src="https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/kubernetes_bootcamp_checklist.png?raw=true" /></p>
+<h2 id="topics">Topics</h2>
+<p>Following are the topics which would be covered as part of this course. Detailed course outline follows.</p>
+<ul>
+<li>Design Workshop:  Mapping Mogambo's Micro Services Architecture to Kubernetes</li>
+<li>Design Workshop: Production grade Kubernetes Architecture design</li>
+<li>Setup Kubernetes Cluster</li>
+<li>Advanced Pod Scheduling</li>
+<li>Publishing Applications with Services</li>
+<li>Achieving Application High Availability and creating Release Strategies with Deployments</li>
+<li>Adding configurations with ConfigMaps and Secrets</li>
+<li>Auto Scaling with Horizontal Pod Autoscaler (HPA)</li>
+<li>Storage and persistence</li>
+<li>Adding security with Network Policies</li>
+</ul>
+<p>Additional Topics if time permits
+  * Additional Controllers
+  * Centralized Log Management
+  * Cluster Maintenance</p>
+<h2 id="detailed-course-outline">Detailed Course Outline</h2>
+<p>This is the detailed course outline with day wise list of contents</p>
+<h3 id="day-i">Day I</h3>
+<h3 id="introduction-and-assessment">Introduction and Assessment</h3>
+<ul>
+<li>Trainer, Class and Course Introduction</li>
+<li>Pre-Assessment Test</li>
+<li>Formation of Groups: Group of 3/4 participants is formed. Each group
+  will collectively come up with the solutions design, which is then discussed
+  in the class, which is followed by the implementation of a common solution.</li>
+</ul>
+<h3 id="module-1-design-workshop-mapping-mogambos-micro-services-architecture-to-kubernetes">Module 1:  Design Workshop - Mapping Mogambo's Micro Services Architecture to Kubernetes</h3>
+<ul>
+<li>Introduction to the Use Case</li>
+<li>Mogambo - The organization and the Application</li>
+<li>Architecture and Problem Statement</li>
+<li>Design Workshop<ul>
+<li>This is intended for the participants to come up with the strategy to deploy
+the application stack described with Kubernetes. Participants would come up with
+the structure of the code, map application deployment to kubernetes components e.g. deployments, services, ingress etc. and come up with the roadmap which is followed
+through rest of the workshop.</li>
+</ul>
+</li>
+</ul>
+<h4 id="module-2-design-workshop-production-grade-kubernetes-architecture">Module 2: Design Workshop: Production grade Kubernetes Architecture</h4>
+<ul>
+<li>Specification of the problem statement   </li>
+<li>Design Workshop: This is a design workshop where each group formed earlier comes
+  up with a sample design for a high available, fault tolerant, scalable and secure  kubernetes cluster using all the primitives they have learnt as part of the pre course exercise. This is followed by a quick discussion/review.</li>
+</ul>
+<h4 id="module-3-setup-and-configure-kubernetes-cluster">Module 3: Setup and configure kubernetes Cluster</h4>
+<ul>
+<li>Setup 2/3 nodes with VirtualBox/Vagrant/Cloud</li>
+<li>Install kubernetes with kubeadm</li>
+<li>CNI Overview</li>
+<li>Network containers with  CNI using  weave/flannel/calico plugin</li>
+<li>Configure kubectl admin client</li>
+<li>Setup Kubernetes Dashboard</li>
+<li>Overview of kubernetes configurations</li>
+<li>Kubernetes RBAC overview - contexts, roles, serviceaccounts etc.</li>
+<li>Setup a project/environment namespace and switch to it</li>
+</ul>
+<h4 id="module-4-advanced-pod-scheduling">Module 4: Advanced Pod Scheduling</h4>
+<ul>
+<li>Defining node/pod affinity and anti affinity</li>
+<li>Adding health checks</li>
+<li>Why and how to define pod resource limits</li>
+<li>Taints and tolerations</li>
+</ul>
+<h4 id="module-5-publishing-applications-with-services">Module 5: Publishing Applications with Services</h4>
+<ul>
+<li>Picking up the right type of a Service<ul>
+<li>Cluster IP and DNS  </li>
+<li>nodePort</li>
+<li>externalIP</li>
+<li>loadbalancer</li>
+<li>headless services with Endpoints/ExternalNames</li>
+</ul>
+</li>
+<li>Labels and Selectors</li>
+<li>Service API Specs<ul>
+<li>Types</li>
+<li>Traffic Policy</li>
+<li>Selector</li>
+</ul>
+</li>
+<li>Services vs Ingress</li>
+<li>Creating service resources  for applications and backing services</li>
+</ul>
+<h4 id="module-6-achieving-application-high-availability-and-creating-release-strategies-with-deployments">Module 6: Achieving Application High Availability and creating Release Strategies with Deployments</h4>
+<ul>
+<li>Deployments and/vs Replication Controllers</li>
+<li>Deployment API Specs  </li>
+<li>Defining replication specs  </li>
+<li>Defining Deployment Strategies<ul>
+<li>Rolling Update</li>
+<li>Recreate</li>
+<li>Batch Size</li>
+</ul>
+</li>
+<li>Deployment Operations<ul>
+<li>Describe</li>
+<li>Rollouts</li>
+<li>Rollbacks</li>
+<li>Edit</li>
+<li>Pause/Unpause</li>
+</ul>
+</li>
+<li>Additional Release Strategies<ul>
+<li>Canary Relases</li>
+<li>Blue/Green Deployments</li>
+</ul>
+</li>
+</ul>
+<h3 id="day-ii">Day II</h3>
+<h4 id="module-7-adding-configurations-with-configmaps-and-secrets">Module 7: Adding configurations with ConfigMaps and Secrets</h4>
+<ul>
+<li>ConfigMaps and Secrets Specs</li>
+<li>Injecting configurations as<ul>
+<li>Environment Variables</li>
+<li>Files</li>
+</ul>
+</li>
+<li>Distributing sensitive data with secrets</li>
+</ul>
+<h4 id="module-8-auto-scaling-with-horizontal-pod-autoscaler-hpa">Module 8: Auto Scaling with Horizontal Pod Autoscaler (HPA)</h4>
+<ul>
+<li>Scaling deployments<ul>
+<li>manually</li>
+<li>autoscaling</li>
+</ul>
+</li>
+<li>HPA Specs<ul>
+<li>Scaling metrics</li>
+<li>default</li>
+<li>custom</li>
+</ul>
+</li>
+<li>Setting up monitoring for kubernetes<ul>
+<li>heapster</li>
+<li>influxdb</li>
+<li>gragana</li>
+</ul>
+</li>
+<li>Creating autoscaling configs</li>
+</ul>
+<h4 id="module-9-storage-and-persistence">Module 9: Storage and Persistence</h4>
+<ul>
+<li>Persistent Storage Concepts<ul>
+<li>Storage Drivers</li>
+<li>PersistentVolumes</li>
+<li>PersistentVolumeClaims</li>
+<li>StorageClass</li>
+</ul>
+</li>
+<li>Setting up a database with persistent volume</li>
+</ul>
+<h4 id="module-10-securing-with-network-policies">Module 10: Securing with Network Policies</h4>
+<ul>
+<li>Network Policy overview</li>
+<li>Network policy specs</li>
+<li>Defining network policy for the application stack</li>
+</ul>
+<h3 id="additional-topics-if-time-permits">Additional Topics if time permits</h3>
+<h4 id="advanced-controllers">Advanced Controllers</h4>
+<ul>
+<li>daemonSets</li>
+<li>statefulSets</li>
+<li>jobs</li>
+<li>crons</li>
+</ul>
+<h4 id="centralized-logging">Centralized Logging</h4>
+<ul>
+<li>Centralized logging for kubernetes</li>
+<li>Setting up a ELK stack</li>
+</ul>
+<h3 id="cluster-maintenance">Cluster Maintenance</h3>
+<ul>
+<li>Cluster Upgrade</li>
+<li>OS Upgrade</li>
+<li>Backups and Restore</li>
+</ul>
+<h2 id="badge-kubernetes-champion">Badge : Kubernetes Champion</h2>
+<p>Successful completion of this course along with the project work and an assessment at the end of this course would qualify you to receive a Docker Champion badge by School of Devops. This badge is compliant with <a href="https://openbadges.org/">Mozilla's Open Badge Standards</a> and can be added to your social profiles (e.g. LinkedIn) and is verifiable.</p>
+<p>Example of a badge is as follows,</p>
+<p><img alt="Kubernetes Champion badge by School of Devops" src="https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/kubernetes_champion.png?raw=true" /></p>
+<h2 id="reading-list">Reading List</h2>
+<p>Here is the list of curated resources which you could refer to to learn about docker before the training and  and get an in depth understanding post training.  </p>
+<h4 id="youtube-resources">Youtube Resources</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=HlAXp0-M6SY">Kubernetes Introduction by Kelsey Hightower</a></li>
+<li><a href="https://www.youtube.com/watch?v=0Omvgd7Hg1I">Life of a Packet</a></li>
+</ul>
+<h4 id="video-courses">Video Courses</h4>
+<ul>
+<li><a href="https://in.udacity.com/course/scalable-microservices-with-kubernetes--ud615">Scalable Micro Services with Kubernetes</a> by Carter Morgan, Kelsey Hightower, Gundega Dekena</li>
+</ul>
+<h4 id="safaribooks-online">Safaribooks Online</h4>
+<ul>
+<li>Kubernetes Up and Running - Kelsey Hightower</li>
+</ul>
+<h4 id="tutorials">Tutorials</h4>
+<ul>
+<li>
+<p><a href="https://github.com/kubernetes/examples">Application Example Tutorials</a></p>
+</li>
+<li>
+<p><a href="https://github.com/kubernetes/kubernetes/tree/master/examples">Application Stack Examples</a></p>
+</li>
+<li>
+<p><a href="https://github.com/kubernetes/kubernetes-bootcamp">Official Kubernetes Bootcamp</a></p>
+</li>
+<li>
+<p><a href="https://blog.alexellis.io/kubernetes-in-10-minutes/">Kubernetes in 10 mins</a></p>
+</li>
+<li>
+<p><a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">Kubernetes the Hard Way</a></p>
+</li>
+<li>
+<p><a href="https://github.com/hobby-kube/guide">Kubernetes Cluster for the Hobbyist</a></p>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../chef/chef-fundamentals-2days/" class="btn btn-neutral float-right" title="Chef Fundamentals">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../advanced-docker/" class="btn btn-neutral" title="Advanced Docker"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../advanced-docker/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../chef/chef-fundamentals-2days/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/require.js"></script>
+      <script src="../../search/search.js"></script>
+
+</body>
+</html>

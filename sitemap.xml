@@ -10,27 +10,31 @@
     
 
     
+        
     <url>
      <loc>/containers/containers_learning_path/</loc>
      <lastmod>2018-01-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>/containers/docker-fundamentals/</loc>
      <lastmod>2018-01-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
+        
     <url>
      <loc>/containers/advanced-docker/</loc>
      <lastmod>2018-01-09</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    <url>
+     <loc>/containers/kubernetes-bootcamp/</loc>
+     <lastmod>2018-01-09</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
