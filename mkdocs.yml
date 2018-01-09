@@ -1,9 +1,11 @@
 site_name: Devops Course Outlines
 pages:
   - Home: README.md
-  - Containers Learning Path: "containers/containers_learning_path.md"
-  - Docker Fundamentals: "containers/docker-fundamentals.md"
-  - Advanced Docker: "containers/advanced-docker.md"
+  - Containers: 
+    - Containers Learning Path: "containers/containers_learning_path.md"
+    - Docker Fundamentals: "containers/docker-fundamentals.md"
+    - Advanced Docker: "containers/advanced-docker.md"
+    - Kubernetes Bootcamp: "containers/kubernetes-bootcamp.md"
   - Chef Fundamentals: "chef/chef-fundamentals-2days.md"
 docs_dir: "2018"
 theme: readthedocs

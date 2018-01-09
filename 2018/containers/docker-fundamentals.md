@@ -8,6 +8,8 @@
 | Level     | Beginner |
 | Modules          | 08 |
 | Nano Projects | 04 |
+| Flipped Class | No |
+| Customizable  | Yes |
 
 ## Objectives
 
@@ -64,6 +66,8 @@ Following are the pre requisite skills to attend this course. Since its a beginn
 * Linux/Unix Systems Fundamentals
 * Familiarity with Command Line Interface (CLI)
 * Fundamental knowledge of editors on linux (any one of vi/nano/emacs)
+* Understanding of YAML syntax and familiarity with reading/writing basic YAML specifications
+
 
 ### Hardware and Software  Requirements
 

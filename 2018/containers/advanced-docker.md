@@ -6,7 +6,7 @@
 | Duration       | 2days     |
 | Level     | Intermediate, Advanced |
 | Modules          | 09 |
-| Nano Projects | xx |
+| Flipped Class | Yes |
 | Customizable  | Yes |
 
 ## Objectives
@@ -17,7 +17,7 @@ This course follows a hands on  workshop method and builds advanced docker skill
 
 This course follows a [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom) methodology, a blended model where participants come prepared with understanding of concepts by going through video/online content. The class time is maximized to perform practical activities to apply the concepts learnt earlier. Practice activities include taking up a use case and solving it by applying the techniques, or performing nano projects etc.   
 
-To make it successful, participants need to be prepared in advance, by going through  the recommended pre class content to clear the concepts as well as by making sure their systems are prepared with all the software required, before the class. The pre class checklist given below can be handy for this purpose. 
+To make it successful, participants need to be prepared in advance, by going through  the recommended pre class content to clear the concepts as well as by making sure their systems are prepared with all the software required, before the class. The pre class checklist given below can be handy for this purpose.
 
 ## Who is this for ?
 
@@ -76,6 +76,7 @@ Pre Assessment test will be conducted at the beginning of the course to asses th
   * Linux/Unix Systems Fundamentals
   * Familiarity with Command Line Interface (CLI)
   * Fundamental knowledge of editors on linux (any one of vi/nano/emacs)
+  * Understanding of YAML syntax and familiarity with reading/writing basic YAML specifications
 
 ### Hardware and Software  Requirements
 
