@@ -3,14 +3,6 @@
 
     
     <url>
-     <loc>/README/</loc>
-     <lastmod>2018-01-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    
-
-    
-    <url>
      <loc>/containers/docker-fundamentals/</loc>
      <lastmod>2018-01-09</lastmod>
      <changefreq>daily</changefreq>
