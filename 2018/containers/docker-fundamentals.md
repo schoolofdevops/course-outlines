@@ -83,6 +83,7 @@ Lab Setup : Instructions can be found at xxx
 ## Supporting Content/Materials
 
 Following is the supporting material which will be provided to you before/during the course  
+
   * Slides (online)  
   * Workshop (online link)  
   * Video Course - Zero to Docker by School of Devops  

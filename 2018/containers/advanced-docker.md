@@ -88,6 +88,7 @@ Lab Setup : Instructions can be found at xxx
 ## Supporting Content/Materials
 
 Following is the supporting material which will be provided to you before/during the course  
+
   * Slides (online)  
   * Workshop (online link)  
   * Video Course - XXX by School of Devops  
@@ -101,7 +102,7 @@ All participants should have completed the following checklist before attending 
   * Validate the setup : verify all pre requisite software is installed on your system and is functional.
   * Join our [docker channel on gitter](https://gitter.im/schoolofdevops/docker?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-![Pre Class Checklist](../../downloads/docker/advanced_docker_pre-class_checklist.png)
+![Pre Class Checklist](https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/advanced_docker_pre-class_checklist.png)
 
 ## Topics
 Following are the topics which would be covered as part of this course. Detailed course outline follows.
@@ -110,9 +111,9 @@ Following are the topics which would be covered as part of this course. Detailed
   * Introduction to Use Case - Mogambo.com
   * Building Custom Base Images
   * Deploying a Custom Registry - Harbor
-  * Building and Distributing Secure Images
+  * Building and distributing images securely
   * Securing Container Runtimes
-  * Continuous Integration with Docker
+  * Continuous Integration with Docker and Jenkins
   * Setting Up Monitoring
   * Centralized Log Management
 
@@ -170,7 +171,7 @@ This is the detailed course outline with day wise list of contents
   * Working with a custom registry
   * Push/Publish images to Harbor
 
-#### Module 5:Building and Distributing Secure Images
+#### Module 5:Building and Distributing Images Securely
   * Dockerfiles with USER and gosu / COPY Vs ADD
   * Registry with RBAC
   * Vulnerability Scanning for Images
@@ -209,8 +210,6 @@ This is the detailed course outline with day wise list of contents
     * e2e Tests
   * Tag, Push and Publish Images
 
-### Additional Topics if time permits
-
 #### Module 8: Setting Up Monitoring
   * Monitoring Containers, Hosts and Applcations
   * Prometheus
@@ -238,7 +237,3 @@ Here is the list of curated resources which you could refer to to learn about do
   * [Tutorials with Live Environment](https://www.katacoda.com/)
   * [Labs by Docker](https://github.com/docker/labs)
   * [Docker Tutorials by hacks.io]( https://hackr.io/tutorials/learn-docker)
-
-### Articles
-  * The Docker Story [How Docker Escaped Near-Death To Become Software’s Next Big Thing](
-http://www.forbes.com/sites/alexkonrad/2015/07/01/how-docker-escaped-near-death-to-become-softwares-next-big-thing/)

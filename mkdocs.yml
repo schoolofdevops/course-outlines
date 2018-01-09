@@ -1,11 +1,8 @@
 site_name: Devops Course Outlines
-Pages:
-  - Home: README.md
-  - Containers:
-    - Docker Fundamentals: "containers/docker-fundamentals.md"
-    - Advanced Docker: "conainers/advanced-docker.md"
-  - IaaC:
-    - "Puppet"
-  - About:
+pages:
+#  - Home: README.md
+  - Docker Fundamentals: "containers/docker-fundamentals.md"
+  - Advanced Docker: "containers/advanced-docker.md"
+  - Chef Fundamentals: "chef/chef-fundamentals-2days.md"
 docs_dir: "2018"
 theme: readthedocs
