@@ -13,6 +13,12 @@
 
 This course follows a hands on  workshop method and builds advanced docker skills on top of existing skills learnt in Docker Fundamentals.
 
+## Flipped Classroom Methodology
+
+This course follows a [Flipped Classroom](https://en.wikipedia.org/wiki/Flipped_classroom) methodology, a blended model where participants come prepared with understanding of concepts by going through video/online content. The class time is maximized to perform practical activities to apply the concepts learnt earlier. Practice activities include taking up a use case and solving it by applying the techniques, or performing nano projects etc.   
+
+To make it successful, participants need to be prepared in advance, by going through  the recommended pre class content to clear the concepts as well as by making sure their systems are prepared with all the software required, before the class. The pre class checklist given below can be handy for this purpose. 
+
 ## Who is this for ?
 
 This course is for someone who has already taken docker fundamentals course and would like to learn advanced topics such as how to integrate docker into developement and continuous integration workflows, how to add security while building as well as running container systems, how to create custom base images, registries  etc. as well as setting up auxiliary services such as monitoring and centralized logging for container systems.
@@ -135,7 +141,7 @@ This is the detailed course outline with day wise list of contents
 
 ### Day I
 
-## Introduction and Pre Assessment
+### Introduction and Pre Assessment
   * Trainer, class and course introduction
   * Pre Assessment Test
 
@@ -220,6 +226,14 @@ This is the detailed course outline with day wise list of contents
   * Setup ELK Stack or equivalent
   * Launching containers with log drivers
 
+
+## Badge : Docker Champion
+
+Successful completion of this course along with the project work and an assessment at the end of this course would qualify you to receive a Docker Champion badge by School of Devops. This badge is compliant with [Mozilla's Open Badge Standards](https://openbadges.org/) and can be added to your social profiles (e.g. LinkedIn) and is verifiable.
+
+Example of a badge is as follows,
+
+![Docker Champin badge by School of Devops](https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/docker_champion.png?raw=true)
 
 ## Reading List
 
