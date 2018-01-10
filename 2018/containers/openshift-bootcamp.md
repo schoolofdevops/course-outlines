@@ -162,6 +162,7 @@ This is the detailed course outline with day wise list of contents
   * Git Integration and auto tagging
   * Pipelines and Jenkins integration
   * Automated Delivery
+
 #### Module 6: Designing Production Grade Openshift Architecture
   * Components of Openshift
     * etcd
@@ -169,6 +170,7 @@ This is the detailed course outline with day wise list of contents
     * Registry
     * Web console
   * Achieving High Availability(HA)
+
 #### Module 7: Setup a Openshift Cluster
   * Types of Openshfit installations
   * Provision nodes
