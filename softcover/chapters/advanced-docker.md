@@ -109,7 +109,7 @@ All participants should have completed the following checklist before attending 
   * Validate the setup : verify all pre requisite software is installed on your system and is functional.
   * Join our [docker channel on gitter](https://gitter.im/schoolofdevops/docker?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-![Pre Class Checklist](https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/advanced_docker_pre-class_checklist.png?raw=true)
+![Pre Class Checklist](images/advanced_docker_pre-class_checklist.png)
 
 ## Topics
 Following are the topics which would be covered as part of this course. Detailed course outline follows.
@@ -142,7 +142,7 @@ This is the detailed course outline with day wise list of contents
 
 ### Day I
 
-### Introduction and Pre Assessment
+#### Introduction and Pre Assessment
   * Trainer, class and course introduction
   * Pre Assessment Test
 
@@ -234,7 +234,7 @@ Successful completion of this course along with the project work and an assessme
 
 Example of a badge is as follows,
 
-![Docker Champin badge by School of Devops](https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/docker_champion.png?raw=true)
+![Docker Champin badge by School of Devops](images/docker_champion.png)
 
 ## Reading List
 

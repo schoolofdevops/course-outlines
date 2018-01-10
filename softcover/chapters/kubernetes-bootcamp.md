@@ -114,7 +114,7 @@ All participants should have completed the following checklist before attending 
   * Validate the setup : verify all pre requisite software is installed on your system and is functional.
   * Join our [kubernetes channel on gitter](https://gitter.im/schoolofdevops/Kubernetes?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 
-![Pre Class Checklist](https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/kubernetes_bootcamp_checklist.png?raw=true)
+![Pre Class Checklist](images/kubernetes_bootcamp_checklist.png)
 
 ## Topics
 Following are the topics which would be covered as part of this course. Detailed course outline follows.
@@ -273,7 +273,7 @@ Successful completion of this course along with the project work and an assessme
 
 Example of a badge is as follows,
 
-![Kubernetes Champion badge by School of Devops](https://github.com/schoolofdevops/course-outlines/blob/master/downloads/docker/kubernetes_champion.png?raw=true)
+![Kubernetes Champion badge by School of Devops](images/kubernetes_champion.png)
 
 ## Reading List
 
